@@ -3,7 +3,7 @@ it's the sdk for python with linking rtosnode
 
 use lib:
 
-import PSintolSDK/PSintolSDK/Release/CPSintolSDK.pdb
+import PSintolSDK/PSintolSDK/Release/CPSintolSDK.pyd
 
 it's the python module
 
