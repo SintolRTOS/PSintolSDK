@@ -35,10 +35,6 @@
       <Name>CPSintolSDK.pyd</Name>
       <PythonExtension>..\Release\CPSintolSDK.pyd</PythonExtension>
     </Reference>
-    <Reference Include="..\Release\superfastcode.pyd">
-      <Name>superfastcode.pyd</Name>
-      <PythonExtension>..\Release\superfastcode.pyd</PythonExtension>
-    </Reference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

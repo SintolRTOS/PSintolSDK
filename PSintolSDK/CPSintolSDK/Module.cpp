@@ -6604,6 +6604,7 @@ PyObject_NewRTIambassador(PyTypeObject *type, PyObject *args, PyObject *kwds)
 	std::vector<std::wstring> stringArgs;
 
 	Py_ssize_t size = PySequence_Size(args);
+	printf("PyObject_NewRTIambassador size:%d \n", size);
 	for (Py_ssize_t i = 0; i < size; ++i) {
 		PyObject* o = PySequence_GetItem(args, i);
 		std::wstring string;
