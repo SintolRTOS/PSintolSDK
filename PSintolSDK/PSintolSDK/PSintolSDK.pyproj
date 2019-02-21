@@ -25,6 +25,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="PFederateAmbassador.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PSintolSDK.py" />
   </ItemGroup>
   <ItemGroup>
