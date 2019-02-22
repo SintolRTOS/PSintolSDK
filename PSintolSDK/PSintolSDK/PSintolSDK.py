@@ -1,3 +1,5 @@
+import sys
+# sys.path.append('C:\\SintolRTOS\\PSintolSDK\\PSintolSDK\\PSintolSDK')
 import CPSintolSDK as sintolsdk
 from PFederateAmbassador import P1516FederateAmbassador
 import threading
